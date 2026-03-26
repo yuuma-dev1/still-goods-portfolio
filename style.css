@@ -225,10 +225,6 @@ select {
   margin-top: 5px;
 }
 
-.product-card:hover {
-  transform: translateY(-4px);
-}
-
 .product-card img {
   transition: transform 0.3s;
 }
