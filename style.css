@@ -233,6 +233,14 @@ select {
   margin-top: 5px;
 }
 
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bottom {
+  margin-top: auto;
+}
 
 @media (max-width: 640px) {
   .shop-header {
