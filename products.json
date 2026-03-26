@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "真鍮のカトラリーセット",
+    "price": 4200,
+    "category": "kitchen",
+    "image": "images/cutlery.jpg",
+    "description": "使うほどに味わいが増す真鍮製のスプーンとフォーク。食卓に静かな気品を添えます。"
+  },
+  {
+    "id": 2,
+    "name": "リネン混のノートブック",
+    "price": 1800,
+    "category": "stationery",
+    "image": "images/notebook.jpg",
+    "description": "手触りの良いリネンを表紙に使用した無地ノート。日々の思考を書き留めるのに最適です。"
+  },
+  {
+    "id": 3,
+    "name": "手吹きガラスのフラワーベース",
+    "price": 5500,
+    "category": "interior",
+    "image": "images/vase.jpg",
+    "description": "気泡が美しく光を反射する、職人による手吹きガラスの一輪挿し。光の当たる窓辺に。"
+  },
+  {
+    "id": 4,
+    "name": "ウッドハンドルのコーヒーミル",
+    "price": 7800,
+    "category": "kitchen",
+    "image": "images/coffee-mill.jpg",
+    "description": "粗さを自由に調整できる手挽きミル。朝の静かな時間に、豆を挽く贅沢な香りを。"
+  },
+  {
+    "id": 5,
+    "name": "ミニマルな真鍮の定規",
+    "price": 1200,
+    "category": "stationery",
+    "image": "images/ruler.jpg",
+    "description": "シンプルさを極めた、重厚感のある15cm定規。デスクの上のアクセントに。"
+  },
+  {
+    "id": 6,
+    "name": "アロマディフューザー・ストーン",
+    "price": 3200,
+    "category": "interior",
+    "image": "images/aroma-stone.jpg",
+    "description": "オイルを垂らすだけで優しく香る素焼きのストーン。寝室やデスク周りで活躍します。"
+  }
+]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist Goods Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="shop-header">
+    <h1>
+       Still Goods
+       <span class="tagline">Simple goods for calm living.</span>
+    </h1>
+    <nav class="controls" aria-label="商品一覧の操作">
+      <div class="filter-group" aria-label="カテゴリで絞り込み">
+        <button class="filter-btn active" data-category="all" type="button">All</button>
+        <button class="filter-btn" data-category="kitchen" type="button">Kitchen</button>
+        <button class="filter-btn" data-category="stationery" type="button">Stationery</button>
+        <button class="filter-btn" data-category="interior" type="button">Interior</button>
+      </div>
+
+      <label class="visually-hidden" for="sort-select">並び替え</label>
+      <select id="sort-select" aria-label="並び替え">
+        <option value="default">おすすめ順</option>
+        <option value="price-asc">価格の安い順</option>
+        <option value="price-desc">価格の高い順</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <div id="product-grid" class="product-grid" aria-live="polite"></div>
+  </main>
+
+  <div
+    id="product-modal"
+    class="modal"
+    aria-hidden="true"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+  >
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+      <button class="close-modal" aria-label="閉じる" type="button">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
