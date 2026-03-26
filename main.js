@@ -1,9 +1,5 @@
 "use strict";
 
-/**
- * 雑貨屋ポートフォリオ用：高度なデータ操作とUI制御
- * 特徴: Async/Await, Array.sort, 背景固定モーダル, アクセシビリティ対応
- */
 document.addEventListener("DOMContentLoaded", () => {
   let allProducts = [];
   let lastFocusedElement = null;
