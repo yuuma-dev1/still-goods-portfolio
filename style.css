@@ -225,6 +225,18 @@ select {
   margin-top: 5px;
 }
 
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-card img {
+  transition: transform 0.3s;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
 @media (max-width: 640px) {
   .shop-header {
     padding: 1.5rem 1rem;
