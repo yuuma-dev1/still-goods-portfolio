@@ -39,8 +39,11 @@ document.addEventListener("DOMContentLoaded", () => {
         <article class="product-card" data-id="${item.id}" tabindex="0" role="button" aria-label="${item.name}の詳細を見る">
           <img src="${item.image}" alt="${item.name}">
           <h3>${item.name}</h3>
-          <p class="price">¥${item.price.toLocaleString()}</p>
-          <span class="category-tag">${item.category}</span>
+
+          <div class="card-bottom">
+            <p class="price">¥${item.price.toLocaleString()}</p>
+            <span class="category-tag">${item.category}</span>
+          </div>
         </article>
       `;
     }).join("");
