@@ -108,6 +108,14 @@ select {
   border-radius: 4px;
 }
 
+.product-card img {
+  transition: transform 0.3s;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
 .product-card h3 {
   margin: 14px 0 8px;
   font-size: 1.05rem;
@@ -225,13 +233,6 @@ select {
   margin-top: 5px;
 }
 
-.product-card img {
-  transition: transform 0.3s;
-}
-
-.product-card:hover img {
-  transform: scale(1.05);
-}
 
 @media (max-width: 640px) {
   .shop-header {
