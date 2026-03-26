@@ -33,13 +33,14 @@ Simple goods for calm living.
 
 ## 📁 File Structure
 
-
+```
 .
 ├── index.html
 ├── style.css
 ├── main.js
 ├── products.json
 └── images/
+```
 
 ---
 
