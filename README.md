@@ -41,7 +41,6 @@ Simple goods for calm living.
 ├── products.json
 └── images/
 
-
 ---
 
 ## 🚀 Live Demo
